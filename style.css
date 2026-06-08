@@ -117,7 +117,7 @@ img{
 /*HOME
 ----------------------------------------------*/
 .cover-home{
-    background-image: url(images/cover-home-s.webp);
+    background-image: url(/webcafe/images/cover-home-s.webp);
 }
 .about{
     max-width: 736px;
@@ -131,7 +131,7 @@ img{
 /*NEWS
 ----------------------------------------------*/
 .cover-news{
-    background-image: url(images/cover-news-s.webp);
+    background-image: url(/webcafe/images/cover-news-s.webp);
 }
 
 /* 記事 */
@@ -195,7 +195,7 @@ img{
 /* Menu
 ------------------------------------------------*/
 .cover-menu{
-    background-image: url(images/cover-menu-s.webp);
+    background-image: url(/webcafe/images/cover-menu-s.webp);
 }
 .grid{
     display: grid;
@@ -223,7 +223,7 @@ img{
 /*フッター
 -----------------------------------------*/
 .page-footer{
-    background-image: url(images/footer-s.webp);
+    background-image: url(/webcafe/images/footer-s.webp);
     background-size: cover;
     background-position: center;
     padding-top: 12rem;
@@ -269,7 +269,7 @@ img{
 /* Contact
 ------------------------------------------------*/
 .cover-contact{
-    background-image: url(images/cover-menu-s.webp);
+    background-image: url(/webcafe/images/cover-menu-s.webp);
 }
 .contact-contents{
     max-width: 640px;
@@ -335,7 +335,7 @@ img{
 
     /*HOME*/
     .cover-home{
-        background-image: url(images/cover-home-l.webp);
+        background-image: url(/webcafe/images/cover-home-l.webp);
     }
     .about{
         margin: 4rem auto 0;
@@ -343,7 +343,7 @@ img{
 
     /* NEWS */
     .cover-news{
-        background-image: url(images/cover-news-l.webp);
+        background-image: url(/webcafe/images/cover-news-l.webp);
     }
     .news-contents{
         display: flex;
@@ -362,7 +362,7 @@ img{
 
     /* Menu */
     .cover-menu{
-        background-image: url(images/cover-menu-l.webp);
+        background-image: url(/webcafe/images/cover-menu-l.webp);
     }
     .grid{
         gap: 3rem 2rem;
@@ -378,7 +378,7 @@ img{
 
     /*フッター*/
     .page-footer{
-        background-image: url(images/footer-l.webp);
+        background-image: url(/webcafe/images/footer-l.webp);
         padding-top: 12rem;
     }
     .info th{
@@ -387,7 +387,7 @@ img{
 
     @media (min-width: 800px){
     .cover-contact{
-        background-image: url(images/cover-menu-l.webp);
+        background-image: url(/webcafe/images/cover-menu-l.webp);
     }
 }    
 }
