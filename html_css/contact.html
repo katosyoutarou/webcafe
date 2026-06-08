@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="ブレンドコーヒーとヘルシーなオーガニックフードを提供するカフェ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Cafe - Contact</title>
+
+<!--ファビコン-->
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+
+<!--リセットCSS-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+<!--Googleフォント-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
+
+<!--オリジナルCSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sub-cover cover-contact">
+        <header class="page-header wrapper">
+            <h1 class="align-center">
+                <a href="index.html"><img class="logo" src="../images/logo.svg" alt="WCBカフェ"></a>
+            </h1>
+            <nav>
+                <ul class="main-nav font-english">
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h2 class="page-title font-english">Contact</h2>
+    </div>
+
+    <main class="wrapper contact-contents">
+        <p class="contact-lead">ご予約・お問い合わせはこちらからどうぞ。</p>
+        <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+                <label for="name">お名前</label>
+                <input type="text" id="name" name="name" placeholder="山田 太郎" required>
+            </div>
+            <div class="form-group">
+                <label for="email">メールアドレス</label>
+                <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">件名</label>
+                <input type="text" id="subject" name="subject" placeholder="ご予約について">
+            </div>
+            <div class="form-group">
+                <label for="message">メッセージ</label>
+                <textarea id="message" name="message" rows="6" placeholder="お問い合わせ内容をご記入ください"></textarea>
+            </div>
+            <div class="align-center">
+                <button type="submit" class="btn">送信する</button>
+            </div>
+        </form>
+    </main>
+
+    <footer class="page-footer">
+        <h3 class="heading-large font-english">Information</h3>
+        <table class="info">
+            <tr>
+                <th>住所</th>
+                <td>東京都港区六本木0-0○○○</td>
+            </tr>
+            <tr>
+                <th>電話</th>
+                <td>03-1111-XXXX</td>
+            </tr>
+            <tr>
+                <th>営業時間</th>
+                <td>10:00～20:00</td>
+            </tr>
+            <tr>
+                <th>定休日</th>
+                <td>水曜</td>
+            </tr>
+        </table>
+        <div class="copyright">
+            <small>&copy; 2010 WCB Cafe</small>
+        </div>
+    </footer>
+</body>
+</html>
